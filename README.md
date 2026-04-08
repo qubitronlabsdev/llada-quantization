@@ -28,7 +28,7 @@ Paper: [Large Language Diffusion Models](https://arxiv.org/abs/2502.09992)
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/llada-quantization
+git clone https://github.com/qubitronlabsdev/llada-quantization
 cd llada-quantization
 pip install -r requirements.txt
 ```
@@ -86,9 +86,7 @@ python inference.py \
   --device cuda
 ```
 
-### Option 3 — Google Colab demo
 
-Open `llada_drive_test.ipynb` in Google Colab for an interactive INT8 vs INT4 comparison.
 
 ---
 
@@ -96,8 +94,8 @@ Open `llada_drive_test.ipynb` in Google Colab for an interactive INT8 vs INT4 co
 
 | File | Size | Link |
 |---|---|---|
-| llada_int8_quantized.pt | 8.54 GB | *(add Drive link)* |
-| llada_int4_quantized.pt | 5.82 GB | *(add Drive link)* |
+| llada_int8_quantized.pt | 8.54 GB | 
+| llada_int4_quantized.pt | 5.82 GB |  
 
 ---
 
@@ -128,9 +126,9 @@ If you use this work, please cite:
 ```bibtex
 @misc{llada-quantization-2026,
   title  = {LLaDA Quantization: INT8 and INT4 for Diffusion Language Models},
-  author = {YOUR NAME},
+  author = {Dhiraj},
   year   = {2026},
-  url    = {https://github.com/YOUR_USERNAME/llada-quantization}
+  url    = {https://github.com/qubitronlabsdev/llada-quantization}
 }
 ```
 
