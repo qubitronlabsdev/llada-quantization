@@ -58,7 +58,8 @@ python quantize.py --mode int4 --save_path llada_int4_quantized.pt
 
 ### Option 2 — Use pre-quantized weights
 
-Download weights from Google Drive (links below), then:
+Download weights from HuggingFace 
+(links below), then:
 
 ```python
 from inference import load_quantized, generate
@@ -91,11 +92,11 @@ python inference.py \
 ---
 
 ## Pre-quantized Weights
-
 | File | Size | Link |
 |---|---|---|
-| llada_int8_quantized.pt | 8.54 GB | 
-| llada_int4_quantized.pt | 5.82 GB |  
+
+| llada_int8_quantized.pt | 8.54 GB | [Download](https://huggingface.co/qubitron/LLaDA-8B-Quantized) |
+| llada_int4_quantized.pt | 4.79 GB | [Download](https://huggingface.co/qubitron/LLaDA-8B-Quantized) | 
 
 ---
 
