@@ -10,7 +10,7 @@
 |---|---|---|---|
 | LLaDA-8B (original) | 16.13 GB | — | ~5 tok/s |
 | LLaDA-8B INT8 | 8.54 GB | **47%** | **9.64 tok/s** |
-| LLaDA-8B INT4 | 5.82 GB | **64%** | 3.39 tok/s |
+| LLaDA-8B INT4 | 4.79 GB | **70%** | 3.39 tok/s |
 
 - INT8 = **2x smaller** + faster inference
 - INT4 = **3x smaller** — fits on consumer GPUs
